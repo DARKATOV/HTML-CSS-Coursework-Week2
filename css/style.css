@@ -115,7 +115,7 @@ ul :nth-child(6n) {
     margin-right: 600px;
 }
 
-/** banner **/
+/** benefits **/
 
 .benefits {
     position: relative;
@@ -124,7 +124,7 @@ ul :nth-child(6n) {
     font-size: 18px;
 }
 
-.img3 {
+.img2 {
     display: inline-block;
     width: 10%;
     padding-left: 50px;
@@ -135,7 +135,7 @@ ul :nth-child(6n) {
     opacity: 0.8;
 }
 
-.p3 {
+.p2 {
     display: inline-block;
     width: 20%;
     padding-left: 50px;
@@ -147,3 +147,26 @@ ul :nth-child(6n) {
     font-size: 20px; 
 }
 
+
+footer{
+    position: relative;
+    top: 650px;
+    font-size: 10px;
+    color: rgb(75, 75, 75);
+    text-align: center;
+}
+
+.img3 {
+    width: 1.5%;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+
+.footer:nth-child(3n){
+filter: hue-rotate(209deg);
+} 
+
+#copyright {
+    margin-top: 25px;
+}
