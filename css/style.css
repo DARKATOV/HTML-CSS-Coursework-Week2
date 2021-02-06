@@ -124,12 +124,26 @@ ul :nth-child(6n) {
     font-size: 18px;
 }
 
-.img3 {display: inline-block;
-    width: 15%;
+.img3 {
+    display: inline-block;
+    width: 10%;
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
-    opacity: 0.6;
+    margin-left: 80px;
+    margin-right: 80px;
+    opacity: 0.8;
 }
+
+.p3 {
+    display: inline-block;
+    width: 20%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 0.9;  
+    font-size: 20px; 
+}
+
