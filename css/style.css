@@ -84,12 +84,20 @@ ul :nth-child(6n) {
 
  .textbanner1{
     position: relative;
-    top:50%;
+    display: flex;
+    justify-content:center;
+    top:180px;
+    font-size: 50px;
+    color: white;
  }
 
  .textbanner2{
     position: relative;
-    top:50%;
+    display: flex;
+    justify-content:center;
+    top:230px;
+    font-size: 23px;
+    color: white;
 }
 
 .buttonbanner {
@@ -98,7 +106,7 @@ ul :nth-child(6n) {
     justify-content:center;
     padding-top: 12px;
     padding-bottom: 12px;
-    top:300px;
+    top:280px;
     border: 1px solid rgb(202, 91, 0);
     border-radius:5px;
     color: white;
