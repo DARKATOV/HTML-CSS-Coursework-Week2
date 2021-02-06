@@ -71,7 +71,7 @@ ul :nth-child(6n) {
     color: rgb(245, 129, 20);
 }
 
- /** img banner **/
+ /** banner **/
 
  .banner{
      margin-top: 30px;
@@ -113,4 +113,23 @@ ul :nth-child(6n) {
     background-color: rgb(202, 91, 0);
     margin-left: 600px;
     margin-right: 600px;
+}
+
+/** banner **/
+
+.benefits {
+    position: relative;
+    text-align: center;
+    top: 580px;
+    font-size: 18px;
+}
+
+.img3 {display: inline-block;
+    width: 15%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    opacity: 0.6;
 }
