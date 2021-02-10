@@ -114,30 +114,30 @@ ul :nth-child(6n) {
     color: white;
     background-color: rgb(202, 91, 0);
     margin-top: 20px;
+    padding-right: 10px;
+    padding-left:10px;
 }
 
 /** benefits **/
 
-.benefits {
-    position: relative;
-    text-align: center;
-    top: 580px;
-    font-size: 18px;
+.blocksbenefits {
+    display: flex;
+    justify-content: space-around;
 }
 
-#benefit1 {
+.benefit1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.benefit2 {
     display: flex;
     justify-content:center;
     flex-direction: column;
 }
 
-#benefit2 {
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
-}
-
-#benefit3 {
+.benefit3 {
     display: flex;
     justify-content:center;
     flex-direction: column;
@@ -145,31 +145,20 @@ ul :nth-child(6n) {
 
 .img2 {
     display: inline-block;
-    width: 10%;
-    padding-left: 50px;
-    padding-right: 50px;
     margin-top: 50px;
-    margin-left: 80px;
-    margin-right: 80px;
     opacity: 0.8;
 }
 
 .p2 {
     display: inline-block;
-    width: 20%;
-    padding-left: 50px;
-    padding-right: 50px;
     margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
     opacity: 0.9;  
-    font-size: 20px; 
+    font-size: 18px;
 }
 
 
 footer{
-    position: relative;
-    top: 650px;
+    margin-top: 100px;
     font-size: 10px;
     color: rgb(75, 75, 75);
     text-align: center;
